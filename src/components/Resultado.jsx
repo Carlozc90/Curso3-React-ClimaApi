@@ -8,7 +8,6 @@ const Resultado = () => {
     <div className="contenedor">
       {!loading ? (
         <>
-          {" "}
           <h2>El Clima de {name} es: </h2>
           <p>
             Temperatura Actual: {parseInt(main.temp - kelvin)}{" "}
